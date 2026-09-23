@@ -11,7 +11,7 @@ AI Solutions Architect · Intelliway · Vitória/ES
 | Projetos | 35 |
 | Commits | 960 |
 | Código versionado no GitHub | 19.8 MB |
-| Linhas nos projetos ainda não versionados | 294.970 |
+| Linhas nos projetos ainda não versionados | 310.578 |
 | Primeiro commit | 2025-08-22 |
 | Linguagens | TypeScript 28%, JavaScript 27%, HTML 20%, Python 12%, C# 7%, CSS 2% |
 
@@ -50,7 +50,7 @@ AI Solutions Architect · Intelliway · Vitória/ES
 
 | Projeto | Cliente | O que resolve | Escala |
 |---|---|---|---|
-| **[KPI Gestão — controle financeiro e conciliação bancária](projects/kpi-gestao.md)** | BPO financeiro | Sistema de controle financeiro empresarial com conciliação bancária — o projeto de maior volume de reescrita do acervo, com cerca de 54 mil linhas em… | 53.920 linhas |
+| **[KPI Engine — gestão financeira multiloja para rede de restaurantes](projects/kpi-gestao.md)** | Franqueadora de restaurantes — rede multiunidade | Sistema de gestão financeira multiloja construído para a operação de uma franqueadora de restaurantes, e o trabalho mais maduro do acervo — 261… | 69.528 linhas |
 | **[Precatur — análise automática de precatórios](projects/precatur.md)** | Precatur | Sistema de análise automática de precatórios e processos judiciais, construído sobre o Evadocs. | 3.286 linhas |
 | **[ADCOS — triagem de certificados por IA](projects/adcos.md)** | ADCOS | Painel de triagem que usa IA para ler certificados de formação profissional, validar a instituição emissora e entregar ao operador uma leitura de… | 3.302 linhas |
 | **[NIST 800-53 — plataforma de conformidade](projects/nist-saas-poc.md)** | Camata | Plataforma SaaS de gestão de conformidade com o NIST 800-53, com backend e frontend separados. | 2.948 linhas |
