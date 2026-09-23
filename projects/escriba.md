@@ -1,23 +1,20 @@
-# escriba
-
-> Grava, transcreve e resume reuniões localmente no Mac — sem bot na chamada e sem áudio saindo da máquina
+# Escriba — reunião gravada e transcrita no próprio Mac
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-08-10 → 2026-08-30 |
+| **Setor** | Produto próprio e plataforma |
+| **Período** | 2026-08-10 → 2026-08-30 |
 | **Commits** | 32 |
-| **Linguagens** | Python 49.9%, Swift 20.7%, JavaScript 18.2%, CSS 8.3%, HTML 2.4% |
-| **Volume de código** | 394 KB versionados |
-| **Setor** | IA aplicada e agentes |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Linguagens** | Python 50%, Swift 21%, JavaScript 18%, CSS 8% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-Grava, transcreve e resume reuniões no seu Mac. Sem bot entrando na chamada, sem driver de áudio virtual, sem mandar áudio para fora da máquina.
+Grava, transcreve e resume reuniões no Mac sem bot entrando na chamada, sem driver de áudio virtual e sem áudio saindo da máquina. Funciona com qualquer coisa que faça barulho — Teams, Meet, Zoom, WhatsApp, Discord, FaceTime, vídeo no navegador — porque captura o áudio do sistema via ScreenCaptureKit, não a API de um app específico. O microfone é capturado em paralelo por uma trilha separada com AVAudioEngine, e são essas duas trilhas distintas que dão a separação de quem falou, sem diarização estatística. A transcrição roda localmente com whisper.cpp acelerado por Metal, ao vivo. No fim, o CLI do Claude gera resumo, memória e índice em Markdown. Python com componentes em Swift para as APIs nativas do macOS.
 
 ## Composição do repositório
 
-60 arquivos versionados, excluídas dependências e artefatos de build. Extensões: `.py` ×26, `.md` ×10, `.js` ×6, `.swift` ×5, `.sh` ×2, `.json` ×1, `.css` ×1, `.html` ×1.
+59 arquivos versionados, excluídas dependências e artefatos de build.
 
 | Pasta | Arquivos | Peso |
 |---|---|---|
@@ -26,7 +23,6 @@ Grava, transcreve e resume reuniões no seu Mac. Sem bot entrando na chamada, se
 | `web` | 8 | 114 KB |
 | `(raiz)` | 5 | 98 KB |
 | `native` | 8 | 85 KB |
-| `.claude` | 1 | 24 KB |
 | `tools` | 1 | 7 KB |
 | `bin` | 1 | 0 KB |
 

@@ -1,21 +1,20 @@
-# intelliway-skills
+# Skills de arquitetura e pré-venda
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-06-19 → 2026-09-09 |
+| **Setor** | Produto próprio e plataforma |
+| **Período** | 2026-06-19 → 2026-09-09 |
 | **Commits** | 34 |
-| **Linguagens** | Python 65.7%, JavaScript 24.2%, Shell 9.2%, TypeScript 0.9% |
-| **Volume de código** | 166 KB versionados |
-| **Setor** | Infra, DevOps e ferramentas |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Linguagens** | Python 66%, JavaScript 24%, Shell 9%, TypeScript 1% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-Skills de Claude Code / Claude Desktop versionadas para sincronizar entre máquinas.
+Conjunto de skills de Claude Code versionado e sincronizado entre máquinas — a automação do próprio trabalho de arquitetura e pré-venda. Inclui `discovery` (mapeia as lacunas de informação de um projeto ainda não entendido e entrega o mapa de gaps por criticidade), `arquiteta` (gera o dossiê de arquitetura completo — C4, fluxos, modelo de dados e MDM, segurança e LGPD, requisitos não-funcionais, ADRs, riscos e roadmap — em HTML navegável), `documenta` e `entrega` (que compõem release de documentação e deploy, com a camada perigosa separada da inócua de propósito), `sharepoint` (entrega técnica sanitizada, sem `node_modules`, `.git`, `.env` nem segredo hardcoded) e `atualiza` (sincroniza a config entre PCs e semeia projeto novo).
 
 ## Composição do repositório
 
-165 arquivos versionados, excluídas dependências e artefatos de build. Extensões: `.md` ×107, `.py` ×23, `.js` ×6, `.sh` ×5, `.json` ×3, `.yaml` ×1, `.ts` ×1.
+165 arquivos versionados, excluídas dependências e artefatos de build.
 
 | Pasta | Arquivos | Peso |
 |---|---|---|
@@ -31,8 +30,6 @@ Skills de Claude Code / Claude Desktop versionadas para sincronizar entre máqui
 | `agent-reach` | 7 | 25 KB |
 | `shaping` | 1 | 23 KB |
 | `prototype` | 3 | 15 KB |
-| `site10k` | 5 | 14 KB |
-| `kb-ingest` | 2 | 13 KB |
 
 ---
 

@@ -1,23 +1,20 @@
-# cca-f-trainer
-
-> Treino para a certificacao Claude Certified Architect - Foundations (CCA-F): quiz bilingue, tutor IA, estudo e gamificacao.
+# CCA-F Trainer — preparatório para certificação
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-06-11 → 2026-06-24 |
+| **Setor** | Produto próprio e plataforma |
+| **Período** | 2026-06-11 → 2026-06-24 |
 | **Commits** | 44 |
-| **Linguagens** | TypeScript 73.7%, Python 23.8%, CSS 2.4%, JavaScript 0.2% |
-| **Volume de código** | 363 KB versionados |
-| **Setor** | IA aplicada e agentes |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Linguagens** | TypeScript 74%, Python 24%, CSS 2%, JavaScript 0% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-App de estudo para a certificação **Claude Certified Architect – Foundations (CCA-F)**. Simulados cronometrados, prática por domínio, estudo de conteúdo, tutor IA e gamificação — responsivo, multiusuário (login Clerk com verificação de email) e com progresso por conta.
+App de estudo para a certificação Claude Certified Architect – Foundations. Banco de 271 questões bilíngues PT-BR/EN com troca instantânea dentro do quiz, em três modos: revisão com feedback por questão, cronometrado, e simulado completo de 60 questões em 110 minutos com score escalado de 100 a 1000, igual à prova real. Cada questão tem um tutor de IA que conversa — explica por que cada alternativa errada erra e liga ao domínio — e a chave da API é do próprio usuário (BYOK), guardada só na aba do navegador e nunca no servidor. Multiusuário com login Clerk e verificação de e-mail, progresso sincronizado entre aparelhos via Upstash Redis chaveado por usuário, mais gamificação com XP, níveis, streak e conquistas.
 
 ## Dependências declaradas
 
-Extraído de `package.json` do repositório.
+Extraídas dos manifestos do repositório.
 
 ```
 @anthropic-ai/sdk · @supabase/ssr · @supabase/supabase-js · @upstash/ratelimit ·
@@ -27,7 +24,7 @@ Extraído de `package.json` do repositório.
 
 ## Composição do repositório
 
-100 arquivos versionados, excluídas dependências e artefatos de build. Extensões: `.ts` ×40, `.tsx` ×33, `.md` ×9, `.json` ×8, `.py` ×5, `.css` ×1.
+97 arquivos versionados, excluídas dependências e artefatos de build.
 
 | Pasta | Arquivos | Peso |
 |---|---|---|
@@ -36,7 +33,6 @@ Extraído de `package.json` do repositório.
 | `src` | 73 | 300 KB |
 | `scripts` | 7 | 90 KB |
 | `docs` | 2 | 14 KB |
-| `.claude` | 3 | 5 KB |
 
 ---
 

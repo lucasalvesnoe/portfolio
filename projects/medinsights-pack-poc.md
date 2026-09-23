@@ -1,21 +1,21 @@
-# medinsights-pack-poc
+# PACK Copilot — RAG clínico que se recusa a alucinar
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-06-06 → 2026-09-08 |
-| **Commits** | 14 |
-| **Linguagens** | TypeScript 98.1%, Shell 1.3%, HTML 0.6% |
-| **Volume de código** | 157 KB versionados |
+| **Cliente** | Medinsights |
 | **Setor** | Saúde |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Período** | 2026-06-06 → 2026-09-08 |
+| **Commits** | 14 |
+| **Linguagens** | TypeScript 98%, Shell 1%, HTML 1% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-PoC de **copiloto clínico com RAG** sobre o **PACK Brasil Adulto 2025** (Practical Approach to Care Kit, versão Porto Alegre). Responde perguntas clínicas e regulariza evoluções **ancorado em trechos reais e citáveis** do protocolo — e **se recusa a responder fora dele**.
+Copiloto clínico com RAG sobre o PACK Brasil Adulto 2025 (Practical Approach to Care Kit, versão Porto Alegre). A tese que o projeto existe para provar é a recusa: toda resposta exibe os trechos do protocolo que a fundamentam, com página e score de similaridade, e pergunta fora do escopo recebe "não consta no PACK Brasil Adulto" em vez de uma resposta plausível inventada. A ingestão é offline — PDF passa por `pdftotext -layout`, perde o rodapé, é fatiado em ~314 chunks. O runtime tem dois provedores intercambiáveis por variável de ambiente: o default é BM25 lexical com geração extrativa, que roda sem nenhuma chave de API e sem custo; o alternativo usa embeddings densos `gemini-embedding-001` com similaridade de cosseno e geração por `gemini-2.5-flash`. Store em arquivo plano na memória, sem infraestrutura externa. React 19 + TypeScript + Vite, com a chave de API isolada numa Netlify Function server-side.
 
 ## Dependências declaradas
 
-Extraído de `package.json` do repositório.
+Extraídas dos manifestos do repositório.
 
 ```
 @anthropic-ai/sdk · @google/genai · react · react-dom · zod
@@ -23,7 +23,7 @@ Extraído de `package.json` do repositório.
 
 ## Composição do repositório
 
-61 arquivos versionados, excluídas dependências e artefatos de build. Extensões: `.ts` ×35, `.tsx` ×9, `.md` ×7, `.json` ×3, `.sh` ×1, `.html` ×1.
+61 arquivos versionados, excluídas dependências e artefatos de build.
 
 | Pasta | Arquivos | Peso |
 |---|---|---|

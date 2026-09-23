@@ -1,21 +1,17 @@
-# Tommasi-Anti-Glosa-PoC
-
-> Sistema de Gestão Laboratorial Tommasi + Central Anti-Glosa com IA (Gemini) - React + Vite
+# Tommasi — gestão laboratorial e central anti-glosa
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2025-10-16 → 2025-11-03 |
-| **Commits** | 17 |
-| **Linguagens** | JavaScript 99.5%, CSS 0.4%, HTML 0.1% |
-| **Volume de código** | 312 KB versionados |
+| **Cliente** | Laboratório Tommasi |
 | **Setor** | Saúde |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Período** | 2025-10-16 → 2025-11-03 |
+| **Commits** | 17 |
+| **Linguagens** | JavaScript 100%, CSS 0%, HTML 0% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
-## Estrutura de primeiro nível
+## O que é
 
-```
-All/
-```
+Sistema de gestão laboratorial para o Laboratório Tommasi com uma central anti-glosa acoplada — glosa é a recusa de pagamento pelo convênio, e o objetivo é pegar o motivo antes do faturamento sair, não depois da negativa. Inclui análise multi-convênio, assistente conversacional sobre as regras de cada operadora e comandos de voz. React + Vite com Gemini. O repositório tem varredura de segredo automatizada no CI via GitHub Actions.
 
 ---
 

@@ -1,23 +1,21 @@
-# directfill
-
-> DIRECTFUEL — gestão de abastecimento externo de frota (MVP piloto Grupo Águia Branca / VIXPAR)
+# DIRECTFUEL — abastecimento externo de frota
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-07-28 → 2026-07-31 |
+| **Cliente** | Grupo Águia Branca / VIXPAR |
+| **Setor** | Transporte e logística |
+| **Período** | 2026-07-28 → 2026-07-31 |
 | **Commits** | 25 |
-| **Linguagens** | TypeScript 91.8%, JavaScript 4.3%, Rich Text Format 1.8%, Shell 0.8%, Dockerfile 0.6% |
-| **Volume de código** | 418 KB versionados |
-| **Setor** | Indústria e logística |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Linguagens** | TypeScript 92%, JavaScript 4%, Rich Text Format 2%, Shell 1% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-Gestão de abastecimento externo de frota — MVP para piloto de 60 dias no **Grupo Águia Branca / VIXPAR**.
+MVP de gestão de abastecimento externo de frota, construído para um piloto de 60 dias no Grupo Águia Branca / VIXPAR e apresentado ao cliente sob a marca DIRECTFUEL. Três perfis no mesmo fluxo: o motorista solicita pelo celular, o frentista confirma na bomba, o gestor audita no painel. Traz rule engine antifraude e evidência fotográfica obrigatória, mas a restrição que moldou a arquitetura é outra — posto de estrada não tem sinal, então a operação é offline por inteiro e sincroniza depois. Stack com Postgres em Docker Compose, Prisma para schema e seed, e autenticação por JWT com PIN para o motorista. Nenhuma senha de seed tem valor default no código: o seed falha se as variáveis de ambiente não forem preenchidas com o mínimo de comprimento exigido.
 
 ## Dependências declaradas
 
-Extraído de `package.json` do repositório.
+Extraídas dos manifestos do repositório.
 
 ```
 @prisma/client · prisma · tsx
@@ -25,7 +23,7 @@ Extraído de `package.json` do repositório.
 
 ## Composição do repositório
 
-121 arquivos versionados, excluídas dependências e artefatos de build. Extensões: `.ts` ×36, `.tsx` ×32, `.md` ×14, `.json` ×10, `.html` ×2, `.js` ×2, `.yml` ×2, `.sh` ×2.
+112 arquivos versionados, excluídas dependências e artefatos de build.
 
 | Pasta | Arquivos | Peso |
 |---|---|---|
@@ -34,7 +32,6 @@ Extraído de `package.json` do repositório.
 | `apps` | 75 | 457 KB |
 | `packages` | 8 | 33 KB |
 | `prisma` | 5 | 30 KB |
-| `.claude` | 9 | 25 KB |
 | `tests` | 2 | 17 KB |
 | `scripts` | 1 | 3 KB |
 

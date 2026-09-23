@@ -1,17 +1,16 @@
-# casa-backup
+# casa-backup — backup com prova de restauração
 
 | | |
 |---|---|
-| **Período de desenvolvimento** | 2026-08-20 → 2026-09-03 |
+| **Setor** | Produto próprio e plataforma |
+| **Período** | 2026-08-20 → 2026-09-03 |
 | **Commits** | 76 |
-| **Linguagens** | Shell 90.5%, Python 9.5% |
-| **Volume de código** | 153 KB versionados |
-| **Setor** | Infra, DevOps e ferramentas |
-| **Código-fonte** | privado — acesso concedido sob solicitação |
+| **Linguagens** | Shell 90%, Python 10% |
+| **Código-fonte** | repositório privado — acesso de leitura sob solicitação |
 
 ## O que é
 
-Backup do MacBook Air e do Mac Pro para o Google Drive pessoal (5 TB), com `restic` sobre `rclone`.
+Sistema de backup dos dois Macs para armazenamento em nuvem, com restic sobre rclone — e tratado como problema de operação, não como script de cópia. São 22 executáveis em `bin/`: preparação por máquina, backup separado por criticidade, arquivamento de mídia fora do restic, espelho navegável, instalação dos agentes no launchd, conferência, restauração com listar/procurar/tirar/montar, e um `provar` que testa restauração de verdade em vez de só contar arquivo. A chave de 256 bits é gerada e gravada no Keychain sem ninguém digitar nem colar, e a documentação é explícita sobre a consequência disso — Keychain morre com o Mac, repositório restic sem senha é lixo criptografado. Inclui scanner de segredo próprio em Python, relatório de incidente, registro de lições e runbook de restauração. Também trata a validade do plano de armazenamento como risco com data marcada.
 
 ## Composição do repositório
 
