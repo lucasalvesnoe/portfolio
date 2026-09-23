@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Setor** | Produto próprio e plataforma |
+| **Setor** | Agentes, infraestrutura e ferramentas |
 | **Período** | 2026-08-20 → 2026-09-03 |
 | **Commits** | 76 |
 | **Linguagens** | Shell 90%, Python 10% |

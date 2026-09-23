@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Setor** | Produto próprio e plataforma |
+| **Setor** | Agentes, infraestrutura e ferramentas |
 | **Arquivos de código** | 38 |
 | **Linhas de código** | 3.599 |
 | **Extensões** | `.ts` ×26, `.tsx` ×8, `.sh` ×1, `.py` ×1, `.css` ×1 |

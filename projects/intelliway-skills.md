@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Setor** | Produto próprio e plataforma |
+| **Setor** | Agentes, infraestrutura e ferramentas |
 | **Período** | 2026-06-19 → 2026-09-09 |
 | **Commits** | 34 |
 | **Linguagens** | Python 66%, JavaScript 24%, Shell 9%, TypeScript 1% |

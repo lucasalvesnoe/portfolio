@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Cliente** | Rede de varejo de calçados |
+| **Cliente** | Constance — rede de calçados, 320 lojas no Brasil |
 | **Setor** | Varejo |
 | **Arquivos de código** | 15 |
 | **Linhas de código** | 3.494 |
