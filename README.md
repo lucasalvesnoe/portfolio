@@ -22,7 +22,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 |---|---|---|---|---|
 | **[publiveo](projects/publiveo.md)** | Publiveo POC — transforma vídeo em conteúdo multicanal via WhatsApp | TypeScript, Python | 230 | 2026-05 → 2026-06 |
 | **[educai-portal](projects/educai-portal.md)** | EducAI - Portal de Cursos Inteligente para Servidores Públicos | TypeScript, HTML | 101 | 2026-03 → 2026-06 |
-| **[casa-backup](projects/casa-backup.md)** | Backup do MacBook Air e do Mac Pro para o Google Drive pessoal (5 TB), com `restic` sobre `rclone`. Decidido e… | Shell, Python | 76 | 2026-08 → 2026-09 |
+| **[casa-backup](projects/casa-backup.md)** | Backup do MacBook Air e do Mac Pro para o Google Drive pessoal (5 TB), com `restic` sobre `rclone`. | Shell, Python | 76 | 2026-08 → 2026-09 |
 | **[Project Planner colaborativo](projects/project-planner-colaborativo.md)** | Projeto React Project Planner integrado ao Supabase, com baselines, IA e otimizações de performance. | JavaScript, TypeScript | 71 | 2025-10 → 2025-12 |
 | **[cca-f-trainer](projects/cca-f-trainer.md)** | Treino para a certificacao Claude Certified Architect - Foundations (CCA-F): quiz bilingue, tutor IA, estudo e… | TypeScript, Python | 44 | 2026-06 → 2026-06 |
 | **[intelliway-skills](projects/intelliway-skills.md)** | Skills de Claude Code / Claude Desktop versionadas para sincronizar entre máquinas. | Python, JavaScript | 34 | 2026-06 → 2026-09 |
@@ -37,7 +37,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 
 ## Todos os projetos, por setor
 
-## Saúde
+### Saúde
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -50,7 +50,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [Assistente-Medico-MV](projects/assistente-medico-mv.md) | assistente widget | TypeScript, HTML | 7 | 2025-11 → 2025-11 |
 | [escritorio-virtual-medinsights](projects/escritorio-virtual-medinsights.md) | Escritórios virtuais onde os claudinhos da MedInsights trabalham de verdade: engine própria (Phaser + Node) e … | JavaScript, Shell | 1 | 2026-09 → 2026-09 |
 
-## Governo e setor público
+### Governo e setor público
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -66,7 +66,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [bandes_alertas](projects/bandes-alertas.md) | pocbandes | TypeScript, CSS | 3 | 2025-11 → 2025-11 |
 | [innova-sisp-ia-poc](projects/innova-sisp-ia-poc.md) | Repositório com duas iniciativas **completamente separadas** — não compartilham pasta, documentação, dataset o… | HTML, CSS | 12 | 2026-07 → 2026-07 |
 
-## Indústria e logística
+### Indústria e logística
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -74,7 +74,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [arcelormittal-servicedesk-ia](projects/arcelormittal-servicedesk-ia.md) |  | HTML, Python | 2 | 2026-06 → 2026-06 |
 | [Vix-Traking-plataform](projects/vix-traking-plataform.md) | v2.4 | TypeScript, HTML | 3 | 2026-02 → 2026-03 |
 
-## IA aplicada e agentes
+### IA aplicada e agentes
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -87,11 +87,11 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [zapinho](projects/zapinho.md) | Assistente de WhatsApp somente-leitura: le o banco local do WhatsApp.app e entrega triagem por IA. Incapaz de … | Python | 3 | 2026-09 → 2026-09 |
 | [claudinho-post](projects/claudinho-post.md) | Recria a fórmula de vídeos virais com IA, publica no Instagram e usa a métrica pra escolher o próximo | Python, HTML | 3 | 2026-07 → 2026-07 |
 
-## Infra, DevOps e ferramentas
+### Infra, DevOps e ferramentas
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
-| [casa-backup](projects/casa-backup.md) | Backup do MacBook Air e do Mac Pro para o Google Drive pessoal (5 TB), com `restic` sobre `rclone`. Decidido e… | Shell, Python | 76 | 2026-08 → 2026-09 |
+| [casa-backup](projects/casa-backup.md) | Backup do MacBook Air e do Mac Pro para o Google Drive pessoal (5 TB), com `restic` sobre `rclone`. | Shell, Python | 76 | 2026-08 → 2026-09 |
 | [intelliway-skills](projects/intelliway-skills.md) | Skills de Claude Code / Claude Desktop versionadas para sincronizar entre máquinas. | Python, JavaScript | 34 | 2026-06 → 2026-09 |
 | [philips_tv](projects/philips-tv.md) | Controle de uma TV Philips 55PUG8100/78 pela API JointSpace v6, sobre HTTPS. Inclui o pareamento por desafio-r… | Python | 5 | 2026-06 → 2026-06 |
 | [quansheng-uv-k6](projects/quansheng-uv-k6.md) | Quansheng UV-K6 V3 (PY32F071) — F4HWN Fusion v5.5.0 firmware knowledge base, tools, channel plans | Python | 1 | 2026-06 → 2026-06 |
@@ -99,7 +99,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [OmniVoice](projects/omnivoice.md) | OmniVoice custom UI — TTS local no Apple Silicon com versionamento, comparação de waveform e salvamento estrut… | Python | 1 | 2026-04 → 2026-04 |
 | [acesso-remoto](projects/acesso-remoto.md) | Túnel WireGuard privado Pro↔Air com Screen Sharing nativo do macOS. Substitui AnyDesk via relay público. | Shell | 4 | 2026-09 → 2026-09 |
 
-## Produtos e SaaS
+### Produtos e SaaS
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -111,7 +111,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [portal-professor](projects/portal-professor.md) | Sistema elegante para professores criarem avaliações inteligentes baseadas em conteúdos registrados, com diagn… | JavaScript, HTML | 8 | 2025-09 → 2025-11 |
 | [churrcontrol](projects/churrcontrol.md) | ChurrControl - Sistema de controle de vendas de churrasquinho | TypeScript, HTML | 1 | 2026-05 → 2026-05 |
 
-## Outros
+### Outros
 
 | Projeto | O que é | Stack | Commits | Período |
 |---|---|---|---|---|
@@ -126,7 +126,7 @@ Doze projetos que cobrem o que eu faço: IA aplicada, integração com sistema l
 | [NIST](projects/nist.md) | Nist questionário | JavaScript, Shell | 7 | 2025-11 → 2025-12 |
 | [mediatorie](projects/mediatorie.md) |  | HTML | 4 | 2026-06 → 2026-06 |
 
-## Repositórios menores
+### Repositórios menores
 
 Experimentos, utilitários e protótipos de ciclo curto. Sem estudo de caso próprio.
 
