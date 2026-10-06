@@ -3,30 +3,16 @@
 | | |
 |---|---|
 | **Sector** | Finance, legal and compliance |
-| **Code files** | 9 |
-| **Lines of code** | 1,772 |
-| **Extensions** | `.js` ×6, `.html` ×2, `.sql` ×1 |
 | **Source code** | not versioned on GitHub — available on request |
 
 ## What it is
 
 Bank reconciliation automation in n8n, integrated with Supabase — the orchestrated version of the same problem that KPI Gestão solves as an application. It accepts statements in CSV, XLSX, XLS, PDF and image formats, with encoding detection, column mapping and OCR for formats that have no text layer. It matches by date and amount against what is already in Supabase, returns a preview before confirming, and sends a final report by webhook or email, with error handling at every step of the flow. It includes a monitoring dashboard and its own test suite.
 
-## Declared dependencies
-
-Extracted from the project's `package.json` / `requirements.txt`.
+## Stack
 
 ```
 axios · form-data · xlsx
-```
-
-## Structure
-
-```
-config/
-scripts/
-tests/
-workflow/
 ```
 
 ---
