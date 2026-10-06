@@ -4,9 +4,6 @@
 |---|---|
 | **Client** | Clinical laboratory |
 | **Sector** | Healthcare |
-| **Period** | 2025-10-16 → 2025-11-03 |
-| **Commits** | 17 |
-| **Languages** | JavaScript 100%, CSS 0%, HTML 0% |
 | **Source code** | private repository — read access on request |
 
 ## What it is

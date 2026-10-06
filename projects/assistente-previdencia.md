@@ -4,9 +4,6 @@
 |---|---|
 | **Client** | State pension institute |
 | **Sector** | Public sector |
-| **Period** | 2026-07-14 → 2026-07-14 |
-| **Commits** | 1 |
-| **Languages** | HTML 100% |
 | **Source code** | private repository — read access on request |
 
 ## What it is

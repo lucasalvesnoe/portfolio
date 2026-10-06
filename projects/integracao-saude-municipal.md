@@ -4,9 +4,6 @@
 |---|---|
 | **Client** | Municipal government of a mid-sized municipality |
 | **Sector** | Public sector |
-| **Period** | 2026-06-19 → 2026-07-01 |
-| **Commits** | 15 |
-| **Languages** | HTML 63%, JavaScript 20%, CSS 17% |
 | **Source code** | private repository — read access on request |
 
 ## What it is
