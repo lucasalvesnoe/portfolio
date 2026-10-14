@@ -4,7 +4,7 @@
 |---|---|
 | **Client** | Clinic using a cloud-based EHR |
 | **Sector** | Healthcare |
-| **Status** | Production-ready (October 2026), clinic pilot starting |
+| **Status** | In production (October 2026), end-to-end acceptance test passed |
 | **Source code** | private repository — read access on request |
 
 ## What it is

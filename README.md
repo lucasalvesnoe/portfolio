@@ -23,7 +23,7 @@ Solutions Architect · Generative & Agentic AI
 |---|---|---|
 | **[Clinical copilot for protocol adherence](projects/copiloto-clinico-protocolo.md)** | Clinic network | Manifest V3 Chrome extension that injects the clinical copilot into a clinic network's electronic health record (EHR), without the EHR vendor having to… |
 | **[Laboratory management and claim-denial prevention hub](projects/laboratorio-anti-glosa.md)** | Clinical laboratory | A laboratory management system for a clinical laboratory, with an attached anti-glosa hub. |
-| **[Clinical inconsistency copilot](projects/copiloto-clinico-inconsistencias.md)** | Clinic using a cloud-based EHR | Production-ready clinical copilot: de-identifies the record in the browser, analyses it on Amazon Bedrock under least-privilege IAM, and writes back only after the doctor clicks. 180 tests, 5 audit rounds. |
+| **[Clinical inconsistency copilot](projects/copiloto-clinico-inconsistencias.md)** | Clinic using a cloud-based EHR | Clinical copilot in production: de-identifies the record in the browser, analyses it on Amazon Bedrock under least-privilege IAM, and writes back only after the doctor clicks. 180 tests, 5 audit rounds. |
 | **[PACK Copilot — clinical RAG that refuses to hallucinate](projects/medinsights-pack-poc.md)** | Medinsights | A clinical copilot with RAG over the PACK Brasil Adulto 2025 (Practical Approach to Care Kit, Porto Alegre version). |
 | **[MedInsights — clinical copilot on a hospital information system](projects/copiloto-clinico-his.md)** | Hospital — off-the-shelf hospital management system | A proof of concept of the clinical copilot, demonstrated on top of the interface of an off-the-shelf hospital management system. |
 
